@@ -1,0 +1,1 @@
+call mvn install --log-file log.txt

@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< demo.project:maven >-------------------------
+[INFO] Building maven 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ maven ---
+[INFO] Deleting D:\PJP_2\Assigment 1\maven\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\PJP_2\Assigment 1\maven\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ maven ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\PJP_2\Assigment 1\maven\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\PJP_2\Assigment 1\maven\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ maven ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\PJP_2\Assigment 1\maven\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ maven ---
+[INFO] Surefire report directory: D:\PJP_2\Assigment 1\maven\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running demo.project.maven.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ maven ---
+[INFO] Building jar: D:\PJP_2\Assigment 1\maven\target\maven-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ maven ---
+[INFO] Installing D:\PJP_2\Assigment 1\maven\target\maven-0.0.1-SNAPSHOT.jar to C:\Users\Manuj\.m2\repository\demo\project\maven\0.0.1-SNAPSHOT\maven-0.0.1-SNAPSHOT.jar
+[INFO] Installing D:\PJP_2\Assigment 1\maven\pom.xml to C:\Users\Manuj\.m2\repository\demo\project\maven\0.0.1-SNAPSHOT\maven-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.639 s
+[INFO] Finished at: 2020-08-23T16:15:39+05:30
+[INFO] ------------------------------------------------------------------------

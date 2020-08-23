@@ -1,0 +1,1 @@
+call mvn -o clean install >> local.txt
