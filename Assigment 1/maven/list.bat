@@ -1,0 +1,1 @@
+call mvn help:describe -Dcmd=deploy
